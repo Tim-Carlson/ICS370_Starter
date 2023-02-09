@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+    <top>
+        <Label fx:id="title" textAlignment="CENTER" text="My Title" />
+    </top>
+   <center>
+      <VBox alignment="CENTER" spacing="20.0">
+          <padding>
+              <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+          </padding>
+         <Slider fx:id="sliderValue" showTickLabels="true" showTickMarks="true" />
+      
+          <Label fx:id="welcomeText" />
+          <Button onAction="#onHelloButtonClick" text="Start" />
+          <Button onAction="#onResetButtonClick" text="Reset" />
+          <Button fx:id="nextButton" onAction="#onNextButtonClick" text="Next" />
+      </VBox>
+   </center>
+</BorderPane>
