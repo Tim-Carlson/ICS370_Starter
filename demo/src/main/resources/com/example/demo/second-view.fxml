@@ -11,9 +11,5 @@
         <Button fx:id="returnButton" onAction="#returnButtonClicked" text="Go Back" />
 
     </center>
-   <bottom>
-      <ListView fx:id="listView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER"/>
-   </bottom>
-
 
 </BorderPane>
